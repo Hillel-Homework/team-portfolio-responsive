@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 					  responsive: [
 					    {
-					      breakpoint: 1400,
+					      breakpoint: 1025,
 					      settings: {
 					        slidesToShow: 2,
 					        slidesToScroll: 2,
@@ -18,14 +18,13 @@ $(document).ready(function(){
 					        dots: true
 					      }
 					    },
-
+					    
 					    {
-					      breakpoint: 950,
+					      breakpoint: 600,
 					      settings: {
 					        slidesToShow: 1,
 					        slidesToScroll: 1
 					      }
-					    
 					    }
 					    // You can unslick at a given breakpoint now by adding:
 					    // settings: "unslick"
