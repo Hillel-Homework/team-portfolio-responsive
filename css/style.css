@@ -82,7 +82,7 @@ header .contact-form {
 	margin: 0;
 	padding:40px 0 0;
 }
-.slick-dots button{  /*  ??????  */
+.slick-dots button{ 
 	margin: 0 5px;
 }
 
@@ -146,7 +146,6 @@ header .contact-form {
 	font-size:18px;
 	color:#fff;
 	padding: 50px;
-	/*flex-grow: 1;*/
 	line-height: 23px;	
 }
 /*-------------footer-contact-form----------*/
@@ -219,9 +218,6 @@ header .contact-form {
 /* tablet */
 
 @media only screen and (max-width: 1024px) {
-	body{
-		/*max-width: 1024px;*/
-	}
 	.wrapper {
 		padding: 204px 48px 0;
 		max-width: 1024px;
@@ -288,6 +284,7 @@ header .contact-form {
     	height: 100%;
     	width: 100%;
     	left: 0;
+    	transition: 1s;
 	}
 	.nav-item {
     	margin: 0 10px;
@@ -335,6 +332,7 @@ header .contact-form {
     	width: 100%;
     	background: #000; 
     	z-index: 999;
+    	transition: 1s;
 	}
 	.menu-open .nav {    
     	top: 0;
@@ -370,8 +368,8 @@ header .contact-form {
 		color: #fff;
 	}
 	.menu-open header .contact-form button {
-	background: #fff;
-    color: #000;
+		background: #fff;
+    	color: #000;
     }
     .menu-open .burger-menu-overlay {
     	display: block;
@@ -397,13 +395,13 @@ header .contact-form {
 		margin-bottom: 32px;
 	}
 	.footer .title {
-    margin: 0 0 32px;
+    	margin: 0 0 32px;
 	}
 
 /*-------------footer-contact-form----------*/
-footer .contact-form {
-	margin-bottom: 80px;
-}
+	footer .contact-form {
+		margin-bottom: 80px;
+	}
 /*-------------contact-form----------*/
 
 	.history-section {
@@ -412,7 +410,6 @@ footer .contact-form {
 	.history-section .text{
 		    padding: 48px;
 	}
-
 	.text-container + .text-container{
 		margin-top: 32px;
 	}
@@ -451,8 +448,8 @@ and (max-width: 768px) {
 		color: #fff;
 	}
 	.menu-open header .contact-form button {
-	background: #fff;
-    color: #000;
+		background: #fff;
+    	color: #000;
     }
    /*--------------menu-open styles-----------------*/
 	
@@ -464,22 +461,22 @@ and (max-width: 768px) {
 		padding: 24px 0 0;
 	}
 	.slick-dots button {
-    width: 8px;
-    height: 8px;
-   }
+    	width: 8px;
+    	height: 8px;
+    }
    .main-section{
-   	padding: 24px 0;
-   }
+   		padding: 24px 0;
+    }
    .main-section .text{
-   	font-size: 16px;
-   	padding: 0;
-   	line-height: 20px;
-   }	
+   		font-size: 16px;
+   		padding: 0;
+   		line-height: 20px;
+    }	
    .article-container{
 		padding: 0 0 24px;	
 	}
 	.history-section {
-    padding: 0;
+    	padding: 0;
 	}
 
 	.history-section .text{
@@ -495,70 +492,67 @@ and (max-width: 768px) {
 		margin-bottom: 24px;
 	}
 	.text .mark {    
-	    font-size: 24px;
-	    line-height: normal;
-	    display: block;
+	   font-size: 24px;
+	   line-height: normal;
+	   display: block;
 	   font-size: 24px;
 	   line-height: normal;
 	   display: block;
 	}
 	/*-------------contact-form----------*/
-/*-------------header-contact-form----------*/
-header .contact-form {
-	border-color: #fff;
-	margin-bottom: 156px;
-}
-header .contact-form .textarea {
-	color: rgba(255,255,255,0.5);
-	font: 18px/1 Montserrat, sans-serif;
-	outline: none;
-	resize: none;
-	overflow: auto;
-	background: #000;
-	padding: 20px;
-	width: 100%;
-	height: 100%;
-	position: initial;	
-}
-
-header .contact-form label {
-	color: rgba(255,255,255,0.5);
-}
-
-header .contact-form-button {
-	background: #fff;
-	color: #000;
-	margin: 19px 0 60px;
-}
-/*-------------footer-contact-form----------*/
-.contact-form {
-	margin: 0;
-}
-.contact-form-button {
-	position: initial;
-	width: 100%;
-	margin: 19px 0 50px;
+	/*-------------header-contact-form----------*/
+	header .contact-form {
+		border-color: #fff;
+		margin-bottom: 156px;
 	}
-
-.contact-form-button:hover {
-	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.46);
-	transform: scale(1.05);
-}
-.contact-form .textarea {
-	padding: 20px;
-	width: 100%;
-	height: 100%;
-	position: initial;
-	font: 18px/1 Montserrat, sans-serif;
-}
-.contact-form label {
-	text-align: center;
-	top: 20px;
-	left: 0;
-}
-.contact-form textarea:focus + label, .contact-form textarea:valid + label {
-	color: rgba(0,0,0,0);
- }
+	header .contact-form .textarea {
+		color: rgba(255,255,255,0.5);
+		font: 18px/1 Montserrat, sans-serif;
+		outline: none;
+		resize: none;
+		overflow: auto;
+		background: #000;
+		padding: 20px;
+		width: 100%;
+		height: 100%;
+		position: initial;	
+	}
+	header .contact-form label {
+		color: rgba(255,255,255,0.5);
+	}
+	header .contact-form-button {
+		background: #fff;
+		color: #000;
+		margin: 19px 0 60px;
+	}
+/*-------------footer-contact-form----------*/
+	.contact-form {
+		margin: 0;
+	}
+	.contact-form-button {
+		position: initial;
+		width: 100%;
+		margin: 19px 0 50px;
+	}
+	.contact-form-button:hover {
+		box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.46);
+		transform: scale(1.05);
+	}
+	.contact-form .textarea {
+		padding: 20px;
+		width: 100%;
+		height: 100%;
+		position: initial;
+		font: 18px/1 Montserrat, sans-serif;
+	}
+	.contact-form label {
+		text-align: center;
+		top: 20px;
+		left: 0;
+	}
+	.contact-form textarea:focus + label, .contact-form textarea:valid + label {
+		color: rgba(0,0,0,0);
+ 	}
  /*-------------contact-form----------*/
 }
 
@@ -568,7 +562,6 @@ header .contact-form-button {
 		max-width: 415px;
 		padding:0;
 	}
-
 	header{
 		padding: 20px 0 0 20px;
 		position: absolute;
@@ -634,6 +627,7 @@ header .contact-form-button {
     	height: 100%;
     	width: 100%;
     	left: 0;
+    	transition: 1s;
 	}
 	.nav-item {
     	margin: 0 10px;
@@ -676,15 +670,16 @@ header .contact-form-button {
 		position: fixed;
     	left: 0;
     	top: 0;
-    	height: 667px;
+    	height: 100%;
     	width: 100%;
     	background: #000; 
     	z-index: 999;
+    	transition: 1s;
 	}
 	.menu-open .nav {    
     	top: 0;
     	background-color: #000;    
-    	height: 667px;
+    	height: 100%;
     }	
 	.menu-open .logo * {
 		fill: #fff;
@@ -726,69 +721,68 @@ header .contact-form-button {
 	}
 	
 	.slick-dots button {
-    width: 8px;
-    height: 8px;
-   }   
+    	width: 8px;
+    	height: 8px;
+    }   
    
-   .container{
-   	margin: 0 20px;
-   }	
+    .container{
+   		margin: 0 20px;
+    }	
 
 /*-------------contact-form----------*/
 
 /*-------------header-contact-form----------*/
-header .contact-form {
-	border-color: #fff;
-	margin-bottom: 156px;
-}
-header .contact-form .textarea {
-	color: rgba(255,255,255,0.5);
-	font: 18px/1 Montserrat, sans-serif;
-	outline: none;
-	resize: none;
-	overflow: auto;
-	background: #000;
-	padding: 20px;
-	width: 100%;
-	height: 100%;
-	position: initial;	
-}
-header .contact-form label {
-	color: rgba(255,255,255,0.5);
-}
-header .contact-form-button {
-	background: #fff;
-	color: #000;
-	margin: 19px 0 60px;
-}
-/*-------------footer-contact-form----------*/
-.contact-form {
-	margin: 0;
-}
-.contact-form-button {
-	position: initial;
-	width: 100%;
-	margin: 19px 0 50px;
+	header .contact-form {
+		border-color: #fff;
+		margin-bottom: 156px;
 	}
-
-.contact-form-button:hover {
-	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.46);
-	transform: scale(1.05);
-}
-.contact-form .textarea {
-	padding: 20px;
-	width: 100%;
-	height: 100%;
-	position: initial;
-	font: 18px/1 Montserrat, sans-serif;
-}
-.contact-form label {
-	text-align: center;
-	top: 20px;
-	left: 0;
-}
-.contact-form textarea:focus + label, .contact-form textarea:valid + label {
-	color: rgba(0,0,0,0);
- }
+	header .contact-form .textarea {
+		color: rgba(255,255,255,0.5);
+		font: 18px/1 Montserrat, sans-serif;
+		outline: none;
+		resize: none;
+		overflow: auto;
+		background: #000;
+		padding: 20px;
+		width: 100%;
+		height: 100%;
+		position: initial;	
+	}
+	header .contact-form label {
+		color: rgba(255,255,255,0.5);
+	}
+	header .contact-form-button {
+		background: #fff;
+		color: #000;
+		margin: 19px 0 60px;
+	}
+	/*-------------footer-contact-form----------*/
+	.contact-form {
+		margin: 0;
+	}
+	.contact-form-button {
+		position: initial;
+		width: 100%;
+		margin: 19px 0 50px;
+	}
+	.contact-form-button:hover {
+		box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.46);
+		transform: scale(1.05);
+	}
+	.contact-form .textarea {
+		padding: 20px;
+		width: 100%;
+		height: 100%;
+		position: initial;
+		font: 18px/1 Montserrat, sans-serif;
+	}
+	.contact-form label {
+		text-align: center;
+		top: 20px;
+		left: 0;
+	}
+	.contact-form textarea:focus + label, .contact-form textarea:valid + label {
+		color: rgba(0,0,0,0);
+ 	}
  /*-------------contact-form----------*/
 }
